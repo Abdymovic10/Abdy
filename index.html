@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A modern, animated website for a Sunday football community." />
+    <title>Sunday Ball — Football Community</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <div class="noise" aria-hidden="true"></div>
+    <div class="loader" data-loader>
+      <div class="loader-card pitch-lines">
+        <img class="loader-logo" src="public/assets/sunday-ball-logo.svg" alt="Sunday Ball logo" />
+        <p>Warming up</p>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <nav class="nav glass" aria-label="Primary navigation">
+        <a class="brand" href="index.html" data-sound>
+          <img src="public/assets/sunday-ball-logo.svg" alt="Sunday Ball logo" />
+          <span>Sunday Ball</span>
+        </a>
+        <div class="nav-links">
+          <a class="active" href="index.html" data-sound>Home</a>
+          <a href="gallery.html" data-sound>Gallery</a>
+          <a href="#join" data-sound>Join Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero pitch-lines">
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow"><i></i> Sunday football, but make it cinema</span>
+            <h1>The weekly ritual for ballers, friends, and beautiful chaos.</h1>
+            <p>
+              A modern community hub for our Sunday football group: matchday energy, gallery memories, simple joining flow, and enough motion to make the pitch feel alive.
+            </p>
+            <div class="hero-actions" id="join">
+              <a class="button primary" href="https://wa.me/2348000000000?text=Hi%20Sunday%20Ball%2C%20I%27d%20like%20to%20join%20the%20group.">Join Us</a>
+              <a class="button ghost" href="gallery.html">View Gallery</a>
+            </div>
+          </div>
+
+          <aside class="hero-card glass reveal delay-1" aria-label="Next football session details">
+            <div class="orbit" aria-hidden="true"></div>
+            <div class="hero-card-inner">
+              <div class="session-top">
+                <span>Next session</span>
+                <strong>▶</strong>
+              </div>
+              <img class="floating-ball" src="public/assets/sunday-ball-logo.svg" alt="Sunday Ball crest" />
+              <div class="session-details">
+                <article>
+                  <small>Every Sunday</small>
+                  <strong>7:00 AM</strong>
+                </article>
+                <article>
+                  <small>Location</small>
+                  <strong>Local pitch</strong>
+                </article>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Sunday Ball stats">
+        <article class="glass reveal"><strong>42+</strong><span>active ballers</span></article>
+        <article class="glass reveal"><strong>8 yrs</strong><span>Sunday ritual</span></article>
+        <article class="glass reveal"><strong>210+</strong><span>match memories</span></article>
+        <article class="glass reveal"><strong>7 AM</strong><span>kick-off energy</span></article>
+      </section>
+
+      <section class="marquee" aria-label="Community highlights">
+        <div class="marquee-track">
+          <span>Weekly football sessions ⚽</span><span>Matchday memories ⚽</span><span>New players welcome ⚽</span><span>Friendly but competitive ⚽</span>
+          <span>Weekly football sessions ⚽</span><span>Matchday memories ⚽</span><span>New players welcome ⚽</span><span>Friendly but competitive ⚽</span>
+        </div>
+      </section>
+
+      <section class="memories">
+        <div class="section-copy reveal">
+          <span class="kicker">Memories</span>
+          <h2>Not just goals. Receipts.</h2>
+          <p>The gallery is built for photos and videos, so the group can preserve the small drama: missed sitters, clean finishes, and post-match gist.</p>
+        </div>
+        <div class="memory-strip">
+          <img class="reveal" src="public/assets/gallery/matchday-01.svg" alt="Sunday Ball matchday placeholder 1" />
+          <img class="reveal delay-1" src="public/assets/gallery/matchday-02.svg" alt="Sunday Ball matchday placeholder 2" />
+          <img class="reveal delay-2" src="public/assets/gallery/matchday-03.svg" alt="Sunday Ball matchday placeholder 3" />
+        </div>
+      </section>
+
+      <section class="cta glass reveal">
+        <span aria-hidden="true">📸</span>
+        <h2>Want in next Sunday?</h2>
+        <p>Tap the button, say hello on WhatsApp, and we’ll share the pitch details. Boots optional. Confidence suspiciously required.</p>
+        <div class="hero-actions centered">
+          <a class="button primary" href="https://wa.me/2348000000000?text=Hi%20Sunday%20Ball%2C%20I%27d%20like%20to%20join%20the%20group.">Contact</a>
+          <a class="button ghost" href="gallery.html">Explore Gallery</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

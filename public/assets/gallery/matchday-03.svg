@@ -1,0 +1,12 @@
+<svg width="900" height="680" viewBox="0 0 900 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="680" rx="48" fill="#07120B"/>
+  <rect x="30" y="30" width="840" height="620" rx="34" fill="#102016"/>
+  <path d="M0 520C180 430 278 594 450 505C620 416 726 458 900 360V680H0V520Z" fill="#1F7A3F"/>
+  <path d="M0 568C202 464 298 630 452 544C636 441 724 504 900 408V680H0V568Z" fill="#B8FF2F" opacity=".78"/>
+  <circle cx="360" cy="237" r="86" fill="#F5FFE9" opacity=".95"/>
+  <path d="M450 130L780 600H120L450 130Z" fill="#F5FFE9" opacity=".09"/>
+  <rect x="88" y="96" width="240" height="42" rx="21" fill="#B8FF2F"/>
+  <text x="112" y="124" fill="#07120B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">SUNDAY BALL</text>
+  <text x="88" y="210" fill="#F5FFE9" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800">MATCHDAY 03</text>
+  <text x="92" y="262" fill="#F5FFE9" opacity=".72" font-family="Arial, Helvetica, sans-serif" font-size="26">Replace this placeholder with your real gallery asset.</text>
+</svg>

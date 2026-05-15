@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sunday Ball gallery for matchday photos and videos." />
+    <title>Gallery — Sunday Ball</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="gallery">
+    <div class="noise" aria-hidden="true"></div>
+    <div class="loader" data-loader>
+      <div class="loader-card pitch-lines">
+        <img class="loader-logo" src="public/assets/sunday-ball-logo.svg" alt="Sunday Ball logo" />
+        <p>Warming up</p>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <nav class="nav glass" aria-label="Primary navigation">
+        <a class="brand" href="index.html" data-sound>
+          <img src="public/assets/sunday-ball-logo.svg" alt="Sunday Ball logo" />
+          <span>Sunday Ball</span>
+        </a>
+        <div class="nav-links">
+          <a href="index.html" data-sound>Home</a>
+          <a class="active" href="gallery.html" data-sound>Gallery</a>
+          <a href="https://wa.me/2348000000000?text=Hi%20Sunday%20Ball%2C%20I%27d%20like%20to%20join%20the%20group." data-sound>Join Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="gallery-page">
+      <section class="gallery-hero">
+        <a class="back-link" href="index.html">← Back home</a>
+        <div class="gallery-intro">
+          <div class="reveal">
+            <span class="kicker">Gallery</span>
+            <h1>Proof that the ball was outside.</h1>
+          </div>
+          <p class="reveal delay-1">
+            A responsive media wall for matchday photos and videos. Replace the placeholder SVGs with your exported Figma/media assets in <code>public/assets/gallery</code> and keep the interactions intact.
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery-grid" aria-label="Sunday Ball media gallery">
+        <article class="gallery-card glass reveal"><img src="public/assets/gallery/matchday-01.svg" alt="Derby morning" /><div><small>Photo</small><h2>Derby morning</h2><p>Sunday Ball archive item #01</p></div></article>
+        <article class="gallery-card glass reveal delay-1"><img src="public/assets/gallery/matchday-02.svg" alt="Touchline stories" /><div><small>Photo</small><h2>Touchline stories</h2><p>Sunday Ball archive item #02</p></div></article>
+        <article class="gallery-card glass reveal delay-2"><img src="public/assets/gallery/matchday-03.svg" alt="Five-a-side chaos" /><div><small>Video</small><h2>Five-a-side chaos</h2><p>Sunday Ball archive item #03</p></div></article>
+        <article class="gallery-card glass reveal"><img src="public/assets/gallery/matchday-04.svg" alt="Post-match laughs" /><div><small>Photo</small><h2>Post-match laughs</h2><p>Sunday Ball archive item #04</p></div></article>
+        <article class="gallery-card glass reveal delay-1"><img src="public/assets/gallery/matchday-05.svg" alt="Training cones, bad decisions" /><div><small>Photo</small><h2>Training cones, bad decisions</h2><p>Sunday Ball archive item #05</p></div></article>
+        <article class="gallery-card glass reveal delay-2"><img src="public/assets/gallery/matchday-06.svg" alt="The group shot" /><div><small>Video</small><h2>The group shot</h2><p>Sunday Ball archive item #06</p></div></article>
+      </section>
+
+      <section class="join-banner reveal">
+        <div>
+          <span>New to the group?</span>
+          <h2>Come create the next memory.</h2>
+        </div>
+        <a class="button dark" href="https://wa.me/2348000000000?text=Hi%20Sunday%20Ball%2C%20I%27d%20like%20to%20join%20the%20group.">Join on WhatsApp</a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
