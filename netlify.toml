@@ -1,0 +1,20 @@
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[redirects]]
+  from = "/home"
+  to = "/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/gallery"
+  to = "/gallery.html"
+  status = 200

@@ -1,0 +1,9 @@
+{
+  "name": "sunday-ball-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 3000",
+    "check": "python3 -m py_compile tools/check_assets.py && python3 tools/check_assets.py"
+  }
+}
